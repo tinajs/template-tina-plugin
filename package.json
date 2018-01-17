@@ -1,0 +1,27 @@
+{
+  "name": "template-tina-plugin",
+  "version": "0.0.1",
+  "description": "Scaffold out a Tina.js plugin template",
+  "files": [
+    "sao.js",
+    "template"
+  ],
+  "repository": {
+    "url": "tinajs/template-tina-plugin",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "ava test/test*.js"
+  },
+  "author": "yelo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tinajs/template-tina-plugin/issues"
+  },
+  "homepage": "https://github.com/tinajs/template-tina-plugin#readme",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "sao": "^0.22.10"
+  },
+  "dependencies": {}
+}
